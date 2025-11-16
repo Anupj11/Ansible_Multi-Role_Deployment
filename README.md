@@ -6,25 +6,6 @@
 ✨ “20+ tasks, multiple roles, countless errors… but the deployment finally runs smoother than butter!” ✨
 </div>
 
-     ┌────────────────────┐
-     │   Master Node 🧠   │
-     └─────────┬──────────┘
-               │ SSH + Ansible
-               ▼
-  ┌─────────────────────────────┐
-  │        Worker Nodes ⚙️      │
-  │  (Security + Docker + Nginx)│
-  └─────────────────────────────┘
-               │
-               ▼
-     🌐  Website Deployed ✔️
-
-
-
-
-
-
-
 
 🚀 Installing Docker......... ████████████████ 100%
 
@@ -62,7 +43,9 @@ ansible all -m ping
 
 
 🌟 Role Breakdown
+
 🛡️ Security Role
+
 ✔ Disable root login  
 ✔ Disable password SSH  
 ✔ Harden sysctl  
@@ -70,17 +53,20 @@ ansible all -m ping
 ✔ Install + enable Fail2Ban  
 
 🐳 Docker Role
+
 ✔ Add Docker GPG key  
 ✔ Add Docker repo  
 ✔ Install Docker CE + CLI  
 ✔ Enable Docker service  
 
 🌐 Nginx Role
+
 ✔ Install Nginx  
 ✔ Manage service  
 ✔ Serve static website  
 
 📄 Website Role
+
 ✔ Create /var/www/html  
 ✔ Copy index.html  
 ✔ Set permissions  
