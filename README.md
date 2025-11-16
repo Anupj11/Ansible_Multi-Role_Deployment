@@ -83,9 +83,13 @@ What I Learned (with motion)
 Future Enhancements
 
 ✨ Add SSL (Let's Encrypt)
+
 ✨ Add Load Balancer
+
 ✨ Add Terraform provisioning
+
 ✨ Add CI/CD (Jenkins or GitHub Actions)
+
 ✨ Add Monitoring (Prometheus + Grafana)
 
 <div align="center">
