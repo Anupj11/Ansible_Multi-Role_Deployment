@@ -81,6 +81,7 @@ What I Learned (with motion)
 🌍 Deploying across multiple EC2 worker nodes  
 
 Future Enhancements
+
 ✨ Add SSL (Let's Encrypt)
 ✨ Add Load Balancer
 ✨ Add Terraform provisioning
