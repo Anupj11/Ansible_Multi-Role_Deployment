@@ -1,0 +1,10 @@
+- name: Create web root
+  file:
+  path: /var/www/html
+  state: directory
+
+
+- name: Copy website
+  copy:
+  src: index.html
+  dest: /var/www/html/index.html

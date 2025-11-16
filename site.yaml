@@ -1,0 +1,8 @@
+- name: configure all service stacks
+  hosts: workers
+  become: true
+  roles:
+    - security
+    - docker
+    - nginx
+    - website
